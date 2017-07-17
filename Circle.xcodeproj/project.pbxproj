@@ -15,6 +15,7 @@
 		E89B171B1F1C41C9006ECC2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89B17191F1C41C9006ECC2D /* LaunchScreen.storyboard */; };
 		E89B17261F1C41C9006ECC2D /* CircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E89B17251F1C41C9006ECC2D /* CircleTests.m */; };
 		E89B17311F1C41C9006ECC2D /* CircleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E89B17301F1C41C9006ECC2D /* CircleUITests.m */; };
+		E89B17411F1C421F006ECC2D /* CircleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E89B17401F1C421F006ECC2D /* CircleAnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E89B172C1F1C41C9006ECC2D /* CircleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E89B17301F1C41C9006ECC2D /* CircleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleUITests.m; sourceTree = "<group>"; };
 		E89B17321F1C41C9006ECC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E89B173F1F1C421F006ECC2D /* CircleAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleAnimationView.h; sourceTree = "<group>"; };
+		E89B17401F1C421F006ECC2D /* CircleAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleAnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		E89B170A1F1C41C9006ECC2D /* Circle */ = {
 			isa = PBXGroup;
 			children = (
+				E89B173E1F1C421F006ECC2D /* CircleAnimationView */,
 				E89B170E1F1C41C9006ECC2D /* AppDelegate.h */,
 				E89B170F1F1C41C9006ECC2D /* AppDelegate.m */,
 				E89B17111F1C41C9006ECC2D /* ViewController.h */,
@@ -138,6 +142,15 @@
 				E89B17321F1C41C9006ECC2D /* Info.plist */,
 			);
 			path = CircleUITests;
+			sourceTree = "<group>";
+		};
+		E89B173E1F1C421F006ECC2D /* CircleAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				E89B173F1F1C421F006ECC2D /* CircleAnimationView.h */,
+				E89B17401F1C421F006ECC2D /* CircleAnimationView.m */,
+			);
+			path = CircleAnimationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E89B17131F1C41C9006ECC2D /* ViewController.m in Sources */,
+				E89B17411F1C421F006ECC2D /* CircleAnimationView.m in Sources */,
 				E89B17101F1C41C9006ECC2D /* AppDelegate.m in Sources */,
 				E89B170D1F1C41C9006ECC2D /* main.m in Sources */,
 			);
